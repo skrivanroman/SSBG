@@ -4,23 +4,110 @@ ModelImporter:
   serializedVersion: 20101
   internalIDToNameTable:
   - first:
-      74: -7791792635541514226
-    second: Klid
+      74: -1342544469281383630
+    second: Enemak|Cube.005Action
   - first:
-      74: -3419257869308726280
-    second: walk
+      74: 486088093274713880
+    second: Enemak|Enemak1walk
   - first:
-      74: 6200578666267062213
-    second: run
+      74: 4028077216279773300
+    second: Enemak|Enemak1walkGetRifle
   - first:
-      74: 995772437719909332
-    second: Postava|klid
+      74: -6655141150141155832
+    second: Enemak|Enemak1walkShooting
   - first:
-      74: -5387284866371966336
-    second: Postava|run
+      74: -9087024929815279879
+    second: Enemak|Enemak2GetShotgun
   - first:
-      74: -2965173140368153452
-    second: Postava|walk
+      74: 3839925343267275660
+    second: Enemak|Enemak2WalkShooting
+  - first:
+      74: 8941667140788483068
+    second: Enemak|ROBOT_SOLDIER_RIG.001|Take 001|BaseLayer
+  - first:
+      74: -2204110975752925591
+    second: Enemak|ROBOT_SOLDIER_RIG.001|Take 001|Merged_Layer
+  - first:
+      74: -3800843788958656680
+    second: Enemak2|Cube.005Action
+  - first:
+      74: 6862701704072359413
+    second: Enemak2|Enemak1walk
+  - first:
+      74: 3194824611285556058
+    second: Enemak2|Enemak1walkGetRifle
+  - first:
+      74: 849568721520158444
+    second: Enemak2|Enemak1walkShooting
+  - first:
+      74: -5279282724258243937
+    second: Enemak2|Enemak2GetShotgun
+  - first:
+      74: -2545619977606684778
+    second: Enemak2|Enemak2WalkShooting
+  - first:
+      74: 4759325655405086546
+    second: Enemak2|ROBOT_SOLDIER_RIG.001|Take 001|BaseLayer
+  - first:
+      74: -7545648012351894978
+    second: Enemak2|ROBOT_SOLDIER_RIG.001|Take 001|Merged_Layer
+  - first:
+      74: 6684697455081249856
+    second: Armature.Shotgun|Cube.005Action
+  - first:
+      74: 8158046859710658046
+    second: Armature.Shotgun|Enemak2GetShotgun
+  - first:
+      74: -7400508413731917012
+    second: Armature.Shotgun|ROBOT_SOLDIER_RIG.001|Take 001|BaseLayer
+  - first:
+      74: -3573756831093460838
+    second: Armature.Shotgun|ROBOT_SOLDIER_RIG.001|Take 001|Merged_Layer
+  - first:
+      74: 8865655644287611534
+    second: PostavaRifle|Cube.005Action
+  - first:
+      74: 8171443114057334317
+    second: PostavaRifle|downRifle
+  - first:
+      74: 8743284317828398591
+    second: PostavaRifle|getRifle
+  - first:
+      74: 8591643501535386781
+    second: PostavaRifle|haveRfile
+  - first:
+      74: 2298227403289458827
+    second: PostavaRifle|klid
+  - first:
+      74: -6458295476444880478
+    second: PostavaRifle|ROBOT_SOLDIER_RIG.001|Take 001|BaseLayer
+  - first:
+      74: 4073271337391856977
+    second: PostavaRifle|ROBOT_SOLDIER_RIG.001|Take 001|Merged_Layer
+  - first:
+      74: 4919100839262844271
+    second: PostavaRifle|run
+  - first:
+      74: -9169376750550671729
+    second: PostavaRifle|walk
+  - first:
+      74: -4154555605511998090
+    second: PostavaRifle|walk.001
+  - first:
+      74: -3653244689128496862
+    second: Armature|Cube.005Action
+  - first:
+      74: -2914434500632234433
+    second: Armature|downRifle
+  - first:
+      74: -2380643261539607088
+    second: Armature|ROBOT_SOLDIER_RIG.001|Take 001|BaseLayer
+  - first:
+      74: 8162096434056167557
+    second: Armature|ROBOT_SOLDIER_RIG.001|Take 001|Merged_Layer
+  - first:
+      74: 6465537673083857494
+    second: Armature|haveRfile
   externalObjects: {}
   materials:
     materialImportMode: 1
