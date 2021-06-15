@@ -18,13 +18,15 @@ public class MouseLook : MonoBehaviour
 
     void Update()
     {
-        float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
-        float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
+        if (!GameObject.Find("Player").GetComponent<PlayerController>().gameOver){
+            float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
+            float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
 
-        cameraRotationX -= mouseY;
-        cameraRotationX = Mathf.Clamp(cameraRotationX, -90f, 90f);
+            cameraRotationX -= mouseY;
+            cameraRotationX = Mathf.Clamp(cameraRotationX, -90f, 90f);
 
-        transform.localRotation = Quaternion.Euler(cameraRotationX, 0f, 0f);
-        player.Rotate(Vector3.up * mouseX);
+            transform.localRotation = Quaternion.Euler(cameraRotationX, 0f, 0f);
+            player.Rotate(Vector3.up * mouseX);
+        }
     }
 }

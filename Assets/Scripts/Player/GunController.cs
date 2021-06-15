@@ -24,17 +24,28 @@ public class GunController : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
-            Shoot();
-
+        if (!GameObject.Find("Player").GetComponent<PlayerController>().gameOver){
+            if (Input.GetButtonDown("Fire1"))
+                Shoot();
+        }
     }
     private void Shoot(){
         RaycastHit hit;
         if (Physics.Raycast(playerCamera.transform.position, playerCamera.transform.forward, out hit, range)){
             
-            GameObject projectileObj = Instantiate(projectile, firePoint.position, Quaternion.identity) as GameObject;
+            GameObject projectileObj = InstaciateProjectile();
+
 
             projectileObj.GetComponent<Rigidbody>().velocity = (hit.point - firePoint.position).normalized * projectileSpeed;
         }
+        else{
+            GameObject projectileObj = InstaciateProjectile();
+            projectileObj.GetComponent<Rigidbody>().velocity = firePoint.forward * projectileSpeed;
+        }
+    }
+    private GameObject InstaciateProjectile(){
+         GameObject projectileObj = Instantiate(projectile, firePoint.position, Quaternion.identity) as GameObject;
+         projectileObj.GetComponent<ProjectileController>().damage = damage;
+         return projectileObj;
     }
 }

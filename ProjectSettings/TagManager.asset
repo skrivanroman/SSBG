@@ -5,6 +5,19 @@ TagManager:
   serializedVersion: 2
   tags:
   - Projectile
+  - walkEnemy1
+  - Enemy
+  - walkEnemy2
+  - walkEnemy5
+  - walkEnemy3
+  - walkEnemy4
+  - walkEnemy6
+  - walkEnemy7
+  - enemakWalk8
+  - walkEnemy8
+  - walkEnemy11
+  - walkEnemy9
+  - walkEnemy10
   layers:
   - Default
   - TransparentFX

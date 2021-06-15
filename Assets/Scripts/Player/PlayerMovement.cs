@@ -33,10 +33,12 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        checkIfGrounded();
-        handleWalk();
-        handleJump();
-        handleGravity();
+        if (!gameObject.GetComponent<PlayerController>().gameOver){
+            checkIfGrounded();
+            handleWalk();
+            handleJump();
+            handleGravity();
+        }
     }
     private void checkIfGrounded(){
         isGrounded = Physics.CheckSphere(groundCheck.position, groundCheckDistance, groundMask);
